@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="./index.css" rel="stylesheet" type="text/css">
+        <script src="https://apis.google.com/js/api.js"></script>
+        <meta name="viewport" content="width=device-width">
+        <title>YouTube API</title>
+    </head>
+
+    <body>
+        <form>
+            <label for="searchTerm">
+                Enter Keyword for YouTube video search:
+            </label>
+            <input type="text" id="searchTerm"/>
+            <button class="submitBtn" type="submit">
+                Search
+            </button>
+        </form>
+
+        <section class="results">
+
+        </section>
+
+        <section id="pageButtons">
+            <button id="prevPage">Previous Page</button>
+            <button id="nextPage">Next Page</button>
+        </section>
+
+        <script src="./index.js"></script>
+    </body>
+</html>
